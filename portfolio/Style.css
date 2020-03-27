@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+.logo-text {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #f05136;
+}
+
+.nav-link {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+
+}
+
+.nav-link:hover {
+    color: #f05136;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    background: #f05136;
+    cursor: pointer;
+    font-weight: 200;
+    color: #fff;
+}
+
+.link-button:hover {
+    color: #fff;
+}
+
+#about img {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+}
+
+
+/*
+logo text
+nav-link
+small header (h2)
+heading (h1)
+Skills, Profiles, About (h2)
+languages, Linkedin (h4)
+p tag (p)
+
+*/

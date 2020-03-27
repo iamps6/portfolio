@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>SRIKANTH PADMASOLA | PS6</title>
 </head>
 
@@ -11,20 +12,20 @@
 
     <nav>
         <ul>
-            <li>PS6</li>
+            <li class="logo-text">PS6</li>
             <li>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Profiles</li>
-                    <li>Skills</li>
-                    <li>Contact</li>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#profiles" class="nav-link">Profiles</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link link-button">Contact</a></li>
                 </ul>
             </li>
         </ul>
     </nav>
 
-    <header>
+    <header id="home">
         <div>
             <h2>Meet</h2>
             <h1>SRIKANTH PADMASOLA</h1>
@@ -32,7 +33,7 @@
 
 
     </header>
-    <section>
+    <section id="about">
         <img src="./assets/ps6.jpg" alt="PS">
         <article>
             <h2>About</h2>
@@ -42,11 +43,12 @@
                 Design and Digital Marketing. Out of passion, he also picked up decent Graphic design, Video making and
                 video editing skills. His current obsession is FACE Prep (www.faceprep.in). In his free time, Srikanth
                 likes cycling, singing and rapping.</p>
-            <a href="https://www.linkedin.com/in/iamps6/" target="_blank">Connect With Me On LinkedIn</a>
+            <a href="https://www.linkedin.com/in/iamps6/" target="_blank" class="link-button">Connect With Me On
+                LinkedIn</a>
         </article>
     </section>
 
-    <section>
+    <section id="profiles">
         <h2>Profiles</h2>
         <p>The Online world is huge and Srikanth wants to leave a mark wherever possible.</p>
         <hr>
@@ -75,7 +77,7 @@
         </div>
 
     </section>
-    <section>
+    <section id="skills">
         <h2>Skills</h2>
         <div>
             <h4>Technical Skills</h4>
@@ -124,13 +126,13 @@
             </div>
         </div>
     </section>
-    <footer>
+    <footer id="contact">
         <h2>Get In Touch</h2>
         <form action="">
             <input type="text" placeholder="Enter Your Name">
             <input type="text" placeholder="Enter Your Email">
             <input type="text" placeholder="Enter Your Message">
-            <input type="button" value="Send Message">
+            <input type="button" value="Send Message" class="link-button">
         </form>
 
     </footer>
